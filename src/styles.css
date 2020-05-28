@@ -1,0 +1,43 @@
+body {
+  box-sizing: border-box;
+  background: lightsalmon;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  width: 200px;
+  height: 200px;
+}
+
+.marco {
+  width: 100%;
+  height: 100%;
+  border: 8px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aguja {
+  display: flex;
+  height: 5px;
+  width: 50%;
+  /* background-color:white; */
+}
+
+.hora {
+  background-color: blue;
+}
+
+.minutos {
+  background-color: yellow;
+}
+
+.segundos {
+  background-color: green;
+}
